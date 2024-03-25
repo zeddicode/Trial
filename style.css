@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin-top: 5px;
+    box-sizing: border-box;
+    }
+
+.header{
+    height: 150px;
+    width: 1500px;
+    /* font-style: italic; */
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+    border: solid 1px none;
+    box-shadow: 5px 5px 10px rgba(198, 194, 202, 0.986);
+    border-radius: 30px;
+    color: #3f7466;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 1500px;
+    justify-content: center;
+    /* align-items: center; */
+    position: fixed;
+}
+.search{
+    display: flex;
+    /* background-color: white; */
+    padding:  15px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: space-between;
+    color: rgba(181, 165, 194, 0.637);
+    margin: 1rem;
+    width: 600px;
+    height: 15px;
+    box-shadow: 5px 5px 10px;
+    position: relative;
+}
+.search input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: black;
+  }
+
+.slogan{
+    text-decoration: lighter;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li{
+    list-style: none;
+}
+.shop li a{
+    margin: 5px;
+    text-decoration: none;
+    padding: 10px;
+    color: #3f7466;;
+}
+.shop ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.topnav li a{
+    background-color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
+    margin: 0.5rem;
+    /* position: fixed; */
+    box-shadow: 5px 5px 5px rgba(181, 165, 194, 0.637);
+    gap: 5px;
+
+}
+.topnav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.VTS{
+    gap: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.set p{
+    padding: 5px;
+    color: rgb(164, 103, 221);
+    text-align: center;
+
+}
+.news ul li a{
+    color: rgb(92, 62, 62);
+    text-decoration: none;
+}
+.news {
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-nav li a {
+    text-decoration: none;
+
+}
+
+p a{
+    color: rgb(92, 60, 60);
+    text-decoration: none;
+}
+.brands {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.last-item {
+    display: flex;
+    justify-content: space-evenly ;
+}
+footer {
+    /* background-color: rgb(77, 61, 61); */
+    color: #776464;
+    height: 220px;
+    padding: 10px;
+    text-align: center;
+    border-top: #093328 solid;
+    box-shadow: 0 0 15px #756d6d;
+    
+}
+#nav {
+    display: flex;
+    justify-content: space-around;
+}
+.category li a{
+    text-decoration: none;
+    color: #685151;
+}
+.review li a{
+    text-decoration: none;
+    color: #634e4e;
+}
